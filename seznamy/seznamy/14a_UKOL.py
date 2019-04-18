@@ -10,4 +10,7 @@
 
 
 def namnozit(obsah, nasobitel):
-    # TODO
+    return [obsah] * nasobitel
+
+print(namnozit('X', 3))
+print(namnozit(1, 5))

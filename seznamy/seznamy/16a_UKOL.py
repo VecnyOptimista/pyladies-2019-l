@@ -16,16 +16,20 @@
 
 
 
-
-
-
-
-
 def vrat_mala_pismena(jmena):
-    # TODO
+    vysledek = []
+    for jmeno in jmena:
+        if jmeno[0].islower():
+            vysledek.append(jmeno)
+    return vysledek
+
 
 def vrat_velka_pismena(jmena):
-    # TODO
+    vysledek = []
+    for jmeno in jmena:
+        if jmeno[0].isupper():
+            vysledek.append(jmeno)
+    return vysledek
 
 print(vrat_mala_pismena(['pepa', 'Jiří', 'Ivo', 'jan']))
 print(vrat_velka_pismena(['pepa', 'Jiří', 'Ivo', 'jan']))
