@@ -6,3 +6,5 @@ Materiály k hodinám Pyladies
 
 Materiály stavěné na základě:
 github.com/vojtechruz/pyladies-7
+
+## Cvičení na Grafiku 21.5.2019
